@@ -1,0 +1,121 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 1.4;
+}
+.panel{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* max-width: 80%; */
+    flex-direction: row;
+       text-align: center;
+    margin: 0 auto;
+    color: white;
+     justify-content: center;
+     padding: 105px ;
+    
+   
+   
+   
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+.heading::first-letter{
+    font-size: 150%;
+}
+.top{
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+    width: 245px;
+    height: 400px;
+     
+    
+   
+}
+.image{
+    /* align-items: center; */
+    height: 20%;
+    width: 30%;
+    /* align-items: left; */
+    
+    
+}
+.image:hover{
+    transform: translate3d(12px, 50%, 3em);
+    transition: all 2s;
+}
+.text
+{
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ 
+    font-weight: 100;
+}
+.top.one{
+    background-color: #e38826;
+}
+.top.two{
+    background-color: #006970;
+}
+.top.three{
+    background-color: #004241;
+}
+.sub{
+    background-color: #eee4da;
+border-style: none;
+padding: 15px;
+border-radius: 20px;
+margin: 25px auto;
+width: 60%;
+font-weight: bold;
+
+}
+.sub.one{
+    color: #e38826;
+}
+.sub.two{
+    color: #006970;
+}
+.sub.three{
+    color: #004241;
+}
+.sub.one:hover{
+    background-color: #e38826;
+    color: #eee4da;
+    border: 2px solid #eee4da;
+   
+}
+.sub.two:hover{
+    background-color: #006970;
+    color: #eee4da;
+    border: 2px solid #eee4da;
+}
+.sub.three:hover{
+    background-color:#004241;
+    color: #eee4da;
+    border: 2px solid #eee4da;
+}
+@media(max-width:900px){
+    .panel{
+       flex-direction: column;
+       align-items: center;
+    }
+    .top{
+       border-radius: 10px;
+       margin: 10px;
+       border: 5px solid black;
+       box-shadow: 10px 5px 5px rgb(253, 218, 104);
+}
+}
